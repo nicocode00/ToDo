@@ -1,0 +1,68 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+
+    width: 30rem;
+    min-height: max-content;
+
+    gap: 1rem;
+}
+
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+
+    width: 100%;
+}
+
+input{
+    padding: .7rem .5rem;
+    width: 100%;
+    border: 1px solid #09e;
+}
+input:focus{
+    outline: 1px solid transparent;
+  }
+  
+
+.entrada button{
+    border: 1px solid transparent;
+    padding: .5rem;
+    cursor: pointer;
+
+    background-color: #0099FF;
+    color: #ffff;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    gap: .5rem;
+}
+
+
+.nota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.nota p{
+    padding: 1rem;
+    width: 85%;
+    word-break: break-all;   
+}
+
+.nota button{
+    border:1px solid transparent;
+    background-color: transparent;
+    color: #c94a4a ;
+    cursor: pointer;
+}

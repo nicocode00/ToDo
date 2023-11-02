@@ -1,0 +1,18 @@
+#root{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+padding: 7rem 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  height: 100vh;  
+  width: 100%;
+}
